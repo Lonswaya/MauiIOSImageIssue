@@ -8,15 +8,11 @@ Inside of the project, there are three projects representing a sample project:
 
 Represents a library whose intention is to provide images.
 
-Isolated from any other code, all this project contains is PNG and SVG images. The two "MauiImage" resources are tinted magenta.
+Isolated from any other code, all this project contains is a PNG and an SVG image. They are tinted magenta.
 
 <img src="./MauiImageLibrary/Resources/Images/dotnet_bot_edited.png" width=200>
 
 ![device](./MauiImageLibrary/Resources/SVGs/devices/devices_edited.svg)
-
-The "EmbeddedResource" image is tinted green.
-
-![device](./MauiImageLibrary/Resources/SVGs/devices/devices_embedded.svg)
 
 ### MauiViewLibrary
 
@@ -32,12 +28,11 @@ The main maui application references `MauiViewLibrary` and implicitly references
 
 It also has two untinted images used as a basis for loading images into the project, which work on either platform. 
 
-It creates four groups:
+It creates three groups:
 
 - One layout with the png and svg in the local project
 - One layout referencing `MauiViewLibrary` and `MauiImageLibrary`'s image assets
 - One layout referencing `MauiViewLibrary` for the `ImagesView` that it creates
-- An image using a workaround via SkiaSharp
 
 
 ## Result

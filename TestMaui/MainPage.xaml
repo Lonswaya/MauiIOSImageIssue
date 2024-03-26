@@ -7,7 +7,7 @@
     <ScrollView>
         <VerticalStackLayout
             Padding="30,0"
-            Spacing="25">
+            Spacing="15">
             <Label Text="Local Image and SVG"></Label>
             <HorizontalStackLayout BackgroundColor="Beige">
                 <Image
@@ -33,6 +33,9 @@
             <HorizontalStackLayout BackgroundColor="Beige">
                 <mauiViewLibrary:ImagesView/>
             </HorizontalStackLayout>
+            
+            <Label Text="Workaround"/>
+            <Image HeightRequest="30" x:Name="devices_embedded"/>  
             
             
         </VerticalStackLayout>

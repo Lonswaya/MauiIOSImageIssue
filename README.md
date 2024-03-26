@@ -37,7 +37,7 @@ It creates four groups:
 - One layout with the png and svg in the local project
 - One layout referencing `MauiViewLibrary` and `MauiImageLibrary`'s image assets
 - One layout referencing `MauiViewLibrary` for the `ImagesView` that it creates
-- An image using a workaround via SkiaSharp
+- An image using a workaround via Embedded Resources
 
 
 ## Result

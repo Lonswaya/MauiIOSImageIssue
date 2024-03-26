@@ -36,8 +36,6 @@
             
             <Label Text="Workaround"/>
             <Image HeightRequest="95" x:Name="bot_embedded"/>  
-            
-            
         </VerticalStackLayout>
     </ScrollView>
 

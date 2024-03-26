@@ -35,7 +35,7 @@
             </HorizontalStackLayout>
             
             <Label Text="Workaround"/>
-            <Image HeightRequest="30" x:Name="devices_embedded"/>  
+            <Image HeightRequest="95" x:Name="bot_embedded"/>  
             
             
         </VerticalStackLayout>

@@ -20,6 +20,7 @@
 
     <ItemGroup>
       <MauiImage Include="Resources\Images\dotnet_bot_edited.png" />
+      <EmbeddedResource Include="Resources\Images\dotnet_bot_embedded.png" />
       <MauiImage Include="Resources\SVGs\devices\devices_edited.svg" />
       <EmbeddedResource Include="Resources\SVGs\devices\devices_embedded.svg" />
     </ItemGroup>

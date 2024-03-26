@@ -16,7 +16,7 @@ Isolated from any other code, all this project contains is PNG and SVG images. T
 
 The "EmbeddedResource" image is tinted green.
 
-![device](./MauiImageLibrary/Resources/SVGs/devices/devices_embedded.svg)
+<img src="./MauiImageLibrary/Resources/Images/dotnet_bot_embedded.png" width=200>
 
 ### MauiViewLibrary
 

@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:mauiViewLibrary="clr-namespace:MauiViewLibrary;assembly=MauiViewLibrary"
+             x:Class="TestMaui.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="30,0"
+            Spacing="25">
+            <Label Text="Local Image and SVG"></Label>
+            <HorizontalStackLayout BackgroundColor="Beige">
+                <Image
+                    Source="dotnet_bot.png"
+                    HeightRequest="95"
+                    Aspect="AspectFit"
+                    SemanticProperties.Description="dot net bot in a race car number eight" />
+                <Image Source="devices.png"/>    
+            </HorizontalStackLayout>
+            
+            <Label Text="Directly referencing image assembly"/>
+            <HorizontalStackLayout BackgroundColor="Beige">
+                <Image x:Name="view_device"></Image>
+                <Image
+                    x:Name="bot"
+                    HeightRequest="95"
+                    Aspect="AspectFit"
+                    SemanticProperties.Description="dot net bot in a race car number eight" />
+                <Image x:Name="devices"/>  
+            </HorizontalStackLayout>
+            
+            <Label Text="View from library referencing image assembly "/>
+            <HorizontalStackLayout BackgroundColor="Beige">
+                <mauiViewLibrary:ImagesView/>
+            </HorizontalStackLayout>
+            
+            
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

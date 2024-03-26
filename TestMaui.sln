@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestMaui", "TestMaui\TestMaui.csproj", "{EBDBA50C-BC58-4620-A717-F72E33765CA2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MauiViewLibrary", "MauiViewLibrary\MauiViewLibrary.csproj", "{197F708F-2D9E-4250-8EB5-4AB9A2D3B53F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MauiImageLibrary", "MauiImageLibrary\MauiImageLibrary.csproj", "{68561650-4318-41B3-BAD5-2CD9BEE4E3B2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EBDBA50C-BC58-4620-A717-F72E33765CA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBDBA50C-BC58-4620-A717-F72E33765CA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBDBA50C-BC58-4620-A717-F72E33765CA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBDBA50C-BC58-4620-A717-F72E33765CA2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{197F708F-2D9E-4250-8EB5-4AB9A2D3B53F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{197F708F-2D9E-4250-8EB5-4AB9A2D3B53F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{197F708F-2D9E-4250-8EB5-4AB9A2D3B53F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{197F708F-2D9E-4250-8EB5-4AB9A2D3B53F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68561650-4318-41B3-BAD5-2CD9BEE4E3B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68561650-4318-41B3-BAD5-2CD9BEE4E3B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68561650-4318-41B3-BAD5-2CD9BEE4E3B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68561650-4318-41B3-BAD5-2CD9BEE4E3B2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
